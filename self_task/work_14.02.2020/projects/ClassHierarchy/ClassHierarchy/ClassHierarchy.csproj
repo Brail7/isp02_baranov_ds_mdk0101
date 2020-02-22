@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5700F380-BB46-405A-8181-8E897D508296}</ProjectGuid>
+    <ProjectGuid>{26C569FB-349B-4FD7-98E1-CDF82F7A28C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassHierarchy_Task2</RootNamespace>
-    <AssemblyName>ClassHierarchy_Task2</AssemblyName>
+    <RootNamespace>ClassHierarchy</RootNamespace>
+    <AssemblyName>ClassHierarchy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hierarchy01\Driver.cs" />
+    <Compile Include="Hierarchy01\Person.cs" />
     <Compile Include="Hierarchy01\Student.cs" />
-    <Compile Include="Hierarchy01\User.cs" />
-    <Compile Include="Hierarchy01\Worker.cs" />
+    <Compile Include="Hierarchy01\Teacher.cs" />
+    <Compile Include="Hierarchy02\Content.cs" />
+    <Compile Include="Hierarchy02\Photo.cs" />
+    <Compile Include="Hierarchy02\Video.cs" />
+    <Compile Include="Hierarchy03\ContractEmployee.cs" />
+    <Compile Include="Hierarchy03\Employee.cs" />
+    <Compile Include="Hierarchy03\RegularEmployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
